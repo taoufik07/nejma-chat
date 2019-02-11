@@ -1,0 +1,3 @@
+-e git+https://github.com/taoufik07/nejma.git@af09f1e7c0dcc3c25d87d4b17a73b31b5ad8de0b#egg=nejma
+starlette==0.10.2
+uvicorn==0.4.3

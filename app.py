@@ -58,7 +58,7 @@ class Homepage(HTTPEndpoint):
 
 
 @app.websocket_route("/ws")
-class Echo(WebSocketEndpoint):
+class Chat(WebSocketEndpoint):
     encoding = "json"
 
     async def on_receive(self, websocket, data):
